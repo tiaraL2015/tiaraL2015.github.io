@@ -1,0 +1,264 @@
+<html>
+<head>
+  <style type= "text/css">
+  #box2{
+  height: 700px;
+  width: 850px;
+  float: left;
+  text-align: left;
+  position:absolute;
+  top: 150px;
+  right: 240px;
+  overflow: scroll;
+  z-index: 4;
+  }
+  p {
+    text-align: center;
+    font-size: 60px;
+    margin-top:0px;
+    border-style: solid;
+    border-width: 5px;
+    background-color:white;
+
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      background-color: #f1f1f1;
+      padding: 20px;
+      font-family: Arial;
+  }
+
+  /* Center website */
+  .main {
+      max-width: 1000px;
+      margin: auto;
+  }
+
+  h1 {
+      font-size: 50px;
+      word-break: break-all;
+  }
+
+  .row {
+      margin: 8px -16px;
+  }
+
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+      padding: 8px;
+  }
+
+  /* Create four equal columns that floats next to each other */
+  .column {
+      float: left;
+      width: 100%;
+  }
+
+  /* Clear floats after rows */
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  /* Content */
+  .content {
+      background-color: white;
+      padding:5px;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media (max-width: 900px) {
+      .column {
+          width: 150%;
+      }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+      .column {
+          width: 600px;
+      }
+  }
+
+
+
+
+
+  .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: black;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: #4d4d4d;
+  }
+
+  audio{
+    display: none;
+  }
+  .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #00bfff;
+     color: white;
+     text-align: center;
+  }
+  .column {
+      float: left;
+      width: 100%;
+
+  }
+  /* Content */
+  .content {
+      background-color: white;
+      padding:2px;
+      position: absolute;
+      top: 300px;
+      right: 30px;
+  }
+  body{
+  	text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+  }
+
+  h1{
+    color: blue;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+  }
+
+  #clockdiv{
+  	font-family: sans-serif;
+  	color: white;
+  	display: inline-block;
+  	font-weight: 100;
+  	text-align: center;
+  	font-size: 30px;
+  }
+
+  #clockdiv > div{
+  	padding: 10px;
+  	border-radius: 3px;
+  	display: inline-block;
+  }
+
+  #clockdiv div > span{
+  	padding: 15px;
+  	border-radius: 3px;
+  	background: black;
+  	display: inline-block;
+  }
+
+  .smalltext{
+  	padding-top: 5px;
+  	font-size: 16px;
+    color:blue;
+  }
+  table {
+      width:100%;
+      overflow: scroll;
+      opacity: 0.8;
+
+  }
+  table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+  }
+  th, td {
+      padding: 5px;
+      text-align: left;
+  }
+  table#t01 tr:nth-child(even) {
+      background-color:  #f2f2f2;
+  }
+  table#t01 tr:nth-child(odd) {
+     background-color:#fff;
+  }
+  table#t01 th {
+      background-color: black;
+      font-size: 16px;
+      color: blue;
+  }</style>
+<div class="navbar">
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/index.html">HOME</a>
+  <div class="dropdown" style="float:left;">
+ <button class="dropbtn">ABOUT</button>
+ <div class="dropdown-content" style="left:0;">
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/news.html">NEWS</a>
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/About.html">REGISTRATION</a>
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/sponsor.html">SPONSORS</a>
+ </div>
+</div>
+
+<div class="dropdown" style="float:left;">
+ <button class="dropbtn">MORE</button>
+ <div class="dropdown-content">
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/CC.html">COACHES CORNER</a>
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/training.html">TRAINING CENTER</a>
+ </div>
+</div>
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/result.html">RESULTS</a>
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/form.html">FORMS</a>
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/contact.html">CONTACT</a>
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/faq.html">F.A.Q</a>
+
+ <a href="https://www.facebook.com/PittLightning"><img src="Facebook-logo-png-image-76118.png" width="40" height="40" alt="Steph" opacity="0.5"style="top:5px; right: 240px; position: absolute; z-index:4"></a>
+</div>
+<div id="box2">
+<font color="yellow">
+
+  <br>
+  <br>
+<h2><font color="red"><u>Coaching Signup Form:</u></font></h2>
+<h4><u>Coaching Code of Conduct Form</u></h4>
+<h5> Pitt Lightning is pleased to be participating in Heads Up Football®, USA Football’s player safety program. A comprehensive method to teaching the sport’s fundamentals in a progressive, age-based approach, Heads Up Football helps youth football leagues and clubs across the United States ensure a better, safer experience for players, coaches, commissioners and parents.</h5>
+<ul>
+  <li>Already have a USA Football account?</li>
+  <li>Log in and renew here:<font color="blue"><a href="https://login.usafootball.com/login">https://login.usafootball.com/login</a></font></li>
+  <li>Need to create a USA Football account?</li>
+  <li>Register here: <a href="https://usafootball.com/register"><font color="blue">http://usafootball.com/register</a></font></li>
+</ul>
+<h4><font color="#ffff00">Promo Code:</font>: (You must use the code during registration or renewal of your Coach Membership so your commissioner can see when you are certified and to receive the discounted, $10 Heads Up Football® rate.</h4>
+  <h5>Promo code: ecyflpitt16 </h5>
+<h4>Once logged in, complete the Level 1 Tackle Certification Course or Re-Certification Quiz here: <a href="https://usafootball.com/login"> <font color="blue">http://www2.usafootball.com/course_list/index</font></a></h4>
+<h4>Have questions? Contact the USA Football Member Services team at <a href="tel:1-877-536-6822"><font color="blue">1-877-5-FOOTBALL (1-877-536-6822)</font> </a>or visit the Help Desk: <a href="https://helpdesk.usafootball.com/hc/en-us"><font color="blue">https://helpdesk.usafootball.com/hc/en-us</a></font></h4>
+
+<h4><a href="https://www.cdc.gov/headsup/youthsports/training/index.html"><font color="blue"><u>CONCUSSION CERTIFICATION></a></font></h4>
+<h5><a href="https://opportunities.averity.com/Index.aspx?uid=76600"><font color="blue">BACKGROUND CHECKS</a></font></h5>
+
+
+</font>
+</div>
+
+
+
+<body>
+
+  <font color="red"><h6 align="right" >Powered by<img src="powered_by_bss.png" width="200" height="50" alt="Steph" opacity="0.5" style="position:absolute; top:750px; right:10px;"></h6>
+
+
+<link href="p.css" rel="stylesheet" type="text/css" />
+<a href="file:///Users/tiaraloftin/Desktop/PittLightning/index.html"><img src="Pitt_Lightning_Banner.jpg" width="1500" height="100" alt="Steph" opacity="0.5"style="top:0px; right:-20px; position: absolute; z-index:4">
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,335 @@
+<html>
+<head>
+  <style type= "text/css">
+  #box2{
+  height: 700px;
+  width: 850px;
+  float: left;
+  text-align: left;
+  position:absolute;
+  top: 150px;
+  right: 240px;
+  overflow: scroll;
+  z-index: 4;
+  }
+  p {
+    text-align: center;
+    font-size: 60px;
+    margin-top:0px;
+    border-style: solid;
+    border-width: 5px;
+    background-color:white;
+
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      background-color: #f1f1f1;
+      padding: 20px;
+      font-family: Arial;
+  }
+
+  /* Center website */
+  .main {
+      max-width: 1000px;
+      margin: auto;
+  }
+
+  h1 {
+      font-size: 50px;
+      word-break: break-all;
+  }
+
+  .row {
+      margin: 8px -16px;
+  }
+
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+      padding: 8px;
+  }
+
+  /* Create four equal columns that floats next to each other */
+  .column {
+      float: left;
+      width: 100%;
+  }
+
+  /* Clear floats after rows */
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  /* Content */
+  .content {
+      background-color: white;
+      padding:5px;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media (max-width: 900px) {
+      .column {
+          width: 150%;
+      }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+      .column {
+          width: 600px;
+      }
+  }
+
+
+
+
+
+  .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: black;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: #4d4d4d;
+  }
+
+  audio{
+    display: none;
+  }
+  .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #00bfff;
+     color: white;
+     text-align: center;
+  }
+  .column {
+      float: left;
+      width: 100%;
+
+  }
+  /* Content */
+  .content {
+      background-color: white;
+      padding:2px;
+      position: absolute;
+      top: 300px;
+      right: 30px;
+  }
+  body{
+  	text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+  }
+
+  h1{
+    color: blue;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+  }
+
+  #clockdiv{
+  	font-family: sans-serif;
+  	color: white;
+  	display: inline-block;
+  	font-weight: 100;
+  	text-align: center;
+  	font-size: 30px;
+  }
+
+  #clockdiv > div{
+  	padding: 10px;
+  	border-radius: 3px;
+  	display: inline-block;
+  }
+
+  #clockdiv div > span{
+  	padding: 15px;
+  	border-radius: 3px;
+  	background: black;
+  	display: inline-block;
+  }
+
+  .smalltext{
+  	padding-top: 5px;
+  	font-size: 16px;
+    color:blue;
+  }
+  table {
+      width:100%;
+      overflow: scroll;
+      opacity: 0.8;
+
+  }
+  table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+  }
+  th, td {
+      padding: 5px;
+      text-align: left;
+  }
+  table#t01 tr:nth-child(even) {
+      background-color:  #f2f2f2;
+  }
+  table#t01 tr:nth-child(odd) {
+     background-color:#fff;
+  }
+  table#t01 th {
+      background-color: black;
+      font-size: 16px;
+      color: blue;
+  }</style>
+<div class="navbar">
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/index.html">HOME</a>
+  <div class="dropdown" style="float:left;">
+ <button class="dropbtn">ABOUT</button>
+ <div class="dropdown-content" style="left:0;">
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/news.html">NEWS</a>
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/About.html">REGISTRATION</a>
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/sponsor.html">SPONSORS</a>
+ </div>
+</div>
+
+<div class="dropdown" style="float:left;">
+ <button class="dropbtn">MORE</button>
+ <div class="dropdown-content">
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/CC.html">COACHES CORNER</a>
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/training.html">TRAINING CENTER</a>
+ </div>
+</div>
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/result.html">RESULTS</a>
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/form.html">FORMS</a>
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/contact.html">CONTACT</a>
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/faq.html">F.A.Q</a>
+
+ <a href="https://www.facebook.com/PittLightning"><img src="Facebook-logo-png-image-76118.png" width="40" height="40" alt="Steph" opacity="0.5"style="top:5px; right: 240px; position: absolute; z-index:4"></a>
+</div>
+<div id="box2">
+  <table id="t01">
+    <tr>
+      <th>League Sponsors</th>
+      <th>Address</th>
+      <th>Phone</th>
+      <th>Web Site</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>Dick Sporting Goods (Platinum Level)</td>
+      <td>5422 New Hope Commons Drive<br>Durham, NC 27834</td>
+      <td>(252)724-273-3726</td>
+      <td>
+        <a href="https://www.dickssportinggoods.com/"><img src="dicks_2x.png" width="60" height="30" alt="Steph" opacity="0.5"></td>
+      <td><a href="mailto:james.haven@dcsg.com"><font color="black">james.havens@dcsg.com</a></font></h4>
+</td>
+    </tr>
+    <tr>
+      <td>Greenville Housing Authority(Platinum Level)</td>
+      <td>1193 Broad St<br>Greenville, NC 27834</td>
+      <td>(252)328-4000</td>
+      <td><a href="http://www.ghanc.net/"><img src="GHALogoWebsite.fw_2.png" width="100" height="50" alt="Steph" opacity="0.5"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tripp Farms(Platinum Level)</td>
+      <td>5151 U.S. 264<br>Greenville, NC 27834</td>
+      <td>(252)814-4701 or (252)714-7033</td>
+      <td><a href="https://www.facebook.com/TrippFarmsWeddingandEvents"><img src="imageedit_1_2403101429-290x86.png" width="100" height="50" alt="Steph" opacity="0.5"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Carolina Support Services(Platinum Level)</td>
+      <td>925 Conference Drive<br>Greenville, NC</td>
+      <td>(252)752-2002</td>
+      <td><a href="http://www.carolinasupportservices.com/"><img src="NPI_1194992347.png" width="150" height="30" alt="Steph" opacity="0.5"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Elite Care Inc.(Platinum Level)</td>
+      <td>132 West Main Street<br>Williamston, NC 27892</td>
+      <td>(252)792-7812</td>
+      <td><a href="http://www.elitecareservices.org/"><img src="npi_1477944908.png" width="100" height="50" alt="Steph" opacity="0.5"></td>
+        <td><a href="mailto:elitecareservices@yahoo.com"><font color="black">elitecareservices@yahoo.com</a></font></h4>
+    </tr>
+    <tr>
+      <td>Lee Kia of Greenville(Gold Level)</td>
+      <td>615 Greenville Blvd SW<br>Durham, NC 27834</td>
+      <td>(252)378-3600</td>
+      <td><a href="https://www.leekiaofgreenville.com/"><img src="KIA_motors.png" width="100" height="50" alt="Steph" opacity="0.5"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Truly Blessed Tranportation INC.(Gold Level)</td>
+      <td>1503 Gilbert Ward Rd.<br>Williamston, NC 27892</td>
+      <td>(252)792-5779</td>
+      <td></td>
+      <td><a href="mailto:tbti@embarqmail.com"><font color="black">tbti@embarqmail.com</a></font></td>
+    </tr>
+    <tr>
+      <td>At Home Personal Care(Gold Level)</td>
+      <td>204 E. Arlington Blvd<br>Greenville, NC 27858</td>
+      <td>(252)714-9099</td>
+      <td><img src="at-home-personal-care-new-logo_3_orig.png" width="70" height="70" alt="Steph" opacity="0.5"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Peach Edu Tab(Gold Level)</td>
+      <td></td>
+      <td>1-650-260-7767</td>
+      <td><a href="http://peachtab.com/edutab901.html"><img src="logo.png" width="100" height="50" alt="Steph" opacity="0.5"></td>
+        <td><a href="mailto:info@peachtab.com"><font color="black">info@peachtab.com</a></font></td>
+    </tr>
+    <tr>
+      <td>Metrics Contract Services(Bronze Level)</td>
+      <td>1240 Sugg Parkway<br>Greenville, NC 27834</td>
+      <td>(252)752-3800</td>
+      <td><a href="http://metricsinc.com/"><img src="logo (1).png" width="100" height="50" alt="Steph" opacity="0.5"></td>
+        <td><a href="thomas.salus@maynepharma.com"><font color="black">info@peachtab.comthomas.salus@maynepharma.com
+    <tr>
+      <td>Raymond Carney(Bronze Level)</td>
+      <td>503 Evans St<br>Greenville, NC 27858</td>
+      <td>(252)830-2002</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Smith Accounting & Computer Service(Bronze Level)</td>
+      <td>615 Nash St E<br>Wilson, NC 27893</td>
+      <td>(252)265-4667</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</div>
+
+
+
+<body>
+
+  <font color="red"><h6 align="right" >Powered by<img src="powered_by_bss.png" width="200" height="50" alt="Steph" opacity="0.5" style="position:absolute; top:750px; right:10px;"></h6>
+
+
+<link href="p.css" rel="stylesheet" type="text/css" />
+<a href="file:///Users/tiaraloftin/Desktop/PittLightning/index.html"><img src="Pitt_Lightning_Banner.jpg" width="1500" height="100" alt="Steph" opacity="0.5"style="top:0px; right:-20px; position: absolute; z-index:4">
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,300 @@
+<html>
+<head>
+  <style type= "text/css">
+  #box2{
+  height: 700px;
+  width: 850px;
+  float: left;
+  text-align: left;
+  position:absolute;
+  top: 150px;
+  right: 240px;
+  overflow: scroll;
+  z-index: 4;
+  }
+  p {
+    text-align: center;
+    font-size: 60px;
+    margin-top:0px;
+    border-style: solid;
+    border-width: 5px;
+    background-color:white;
+
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      background-color: #f1f1f1;
+      padding: 20px;
+      font-family: Arial;
+  }
+
+  /* Center website */
+  .main {
+      max-width: 1000px;
+      margin: auto;
+  }
+
+  h1 {
+      font-size: 50px;
+      word-break: break-all;
+  }
+
+  .row {
+      margin: 8px -16px;
+  }
+
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+      padding: 8px;
+  }
+
+  /* Create four equal columns that floats next to each other */
+  .column {
+      float: left;
+      width: 100%;
+  }
+
+  /* Clear floats after rows */
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  /* Content */
+  .content {
+      background-color: white;
+      padding:5px;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media (max-width: 900px) {
+      .column {
+          width: 150%;
+      }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+      .column {
+          width: 600px;
+      }
+  }
+
+
+
+
+
+  .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: black;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: #4d4d4d;
+  }
+
+  audio{
+    display: none;
+  }
+  .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #00bfff;
+     color: white;
+     text-align: center;
+  }
+  .column {
+      float: left;
+      width: 100%;
+
+  }
+  /* Content */
+  .content {
+      background-color: white;
+      padding:2px;
+      position: absolute;
+      top: 300px;
+      right: 30px;
+  }
+  body{
+  	text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+  }
+
+  h1{
+    color: blue;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+  }
+
+  #clockdiv{
+  	font-family: sans-serif;
+  	color: white;
+  	display: inline-block;
+  	font-weight: 100;
+  	text-align: center;
+  	font-size: 30px;
+  }
+
+  #clockdiv > div{
+  	padding: 10px;
+  	border-radius: 3px;
+  	display: inline-block;
+  }
+
+  #clockdiv div > span{
+  	padding: 15px;
+  	border-radius: 3px;
+  	background: black;
+  	display: inline-block;
+  }
+
+  .smalltext{
+  	padding-top: 5px;
+  	font-size: 16px;
+    color:blue;
+  }
+  table {
+      width:100%;
+      overflow: scroll;
+      opacity: 0.8;
+
+  }
+  table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+  }
+  th, td {
+      padding: 5px;
+      text-align: left;
+  }
+  table#t01 tr:nth-child(even) {
+      background-color:  #f2f2f2;
+  }
+  table#t01 tr:nth-child(odd) {
+     background-color:#fff;
+  }
+  table#t01 th {
+      background-color: black;
+      font-size: 16px;
+      color: blue;
+  }</style>
+<div class="navbar">
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/index.html">HOME</a>
+  <div class="dropdown" style="float:left;">
+ <button class="dropbtn">ABOUT</button>
+ <div class="dropdown-content" style="left:0;">
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/news.html">NEWS</a>
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/About.html">REGISTRATION</a>
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/sponsor.html">SPONSORS</a>
+ </div>
+</div>
+
+<div class="dropdown" style="float:left;">
+ <button class="dropbtn">MORE</button>
+ <div class="dropdown-content">
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/CC.html">COACHES CORNER</a>
+   <a href="file:///Users/tiaraloftin/Desktop/PittLightning/training.html">TRAINING CENTER</a>
+ </div>
+</div>
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/result.html">RESULTS</a>
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/form.html">FORMS</a>
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/contact.html">CONTACT</a>
+  <a href="file:///Users/tiaraloftin/Desktop/PittLightning/faq.html">F.A.Q</a>
+
+ <a href="https://www.facebook.com/PittLightning"><img src="Facebook-logo-png-image-76118.png" width="40" height="40" alt="Steph" opacity="0.5"style="top:5px; right: 240px; position: absolute; z-index:4"></a>
+</div>
+<div id="box2">
+<font color="yellow">
+
+  <br>
+  <br>
+<h2><font color="red">Registration FAQ:</font></h2>
+<h4>Q) Who can participate in our football programs?</h4>
+<h4>A) Any child age 6-13. We do not hold tryouts, and <u>ALL</u> children play!</h4>
+<br>
+<h4>Q) Does my child really have to be at registration?</h4>
+<h4>A) No. A parent or LEGAL guardian can register a player.</h4>
+<br>
+<h4>Q) What happens if we miss all the registrations?</h4>
+<h4>A) The completed forms and required documents may be mailed in along with a check for the full registration fee. Incomplete forms or missing documents will prevent us from registering your child. Keep in mind, that any requests to be placed with friends or siblings stand less of a chance of approval with late registrations.</h4>
+<br>
+<h4>Q) Can girls sign up to play football with the boys?</h4>
+<h4>A) YES!</h4>
+<br>
+<h4>A) I want all my kids on the same team. Can this be done?</h4>
+<h4>A) If their ages and weights all fall within the guidelines for the same division, yes. Please see our divisions section for the age/weight matrix. Note that cheer participants are NOT subject to the weight requirements; they are placed solely by age.</h4>
+<br>
+<h4>Q) What is the registration cost?</h4>
+<h4>A) Practice starts on July 23rd and could go into the third week of November. The game schedule is set by the League, and will be announced as soon as we have it. </h4>
+<br>
+<h4>Q) How much time is involved in football?</h4>
+<h4>A) It is a BIG time commitment on the part of both players and parents. For the fweeks prior to school starting, we will practice 3 times a week for up to 2 hours each practice. After schools starts, we will have practice 2 times a week, with games being played on Saturday.</h4>
+<br>
+<h4>Q) Isn't it really HOT!!!</h4>
+<h4>A) It sure is! It is imperative that your child drink plenty of water during the football season. This includes the night before practice and during the day before practice. Water is provided at practice, but is not a substitute for good hydration throughout the day.</h4>
+<br>
+<h4>Q) What is the game schedule?</h4>
+<h4>A) All regular-season games are scheduled to be played on Saturdays. Generally, the first regular-season game is on the last Saturday of August, though some teams play in a ‘jamboree’ the weekend before. We typically do not receive the game schedule until a couple of days before the first scheduled game, and there are frequent changes made to the schedule immediately after that. We do not have any control over the schedule or when it is disseminated, we therefore ask that you check the website, facebook the Friday before every game to ensure the schedule hasn't changed. The regular season usually runs through the first weekend in November for all teams.</h4>
+<br>
+<h4>Q) Is tackle football too rough for my child?</h4>
+<h4>A) Only you and your child can answer that. Pittt Lightning & UYFL provides training to help insure coaches are knowledgeable well trained individuals with the ability to teach proper technique and skills. All equipment is inspected to provide proper safety for all players. Keep in mind... this is tackle football. It is not a sport for every child. Please discuss this with your child and any of our Board members prior to registering if you have specific concerns. </h4>
+<br>
+<h4>Q) Are the coaches paid employees?</h4>
+<h4> A) Our coaches are all volunteers who donate their time to help our kids. This entire program, from the people who help out on game day, to the President, is run by volunteers who put in a great deal of personal time to make this program available to your children.</h4>
+<br>
+<h4>Q) Do you have to buy all the equipment?</h4>
+<h4>A) Your child will need to get a pair of molded (not detachable) football cleats, socks, and athletic supporter. There may also be other incidental items you wish your child to have.</h4>
+<br>
+<h4>Q) How do you select your teams?</h4>
+<h4>A) In tackle football there are several divisions. These divisions are determined by age and weight. The tackle divisions are Ankle Bitters(ages 5-6), Division I (8& under), Division II (10 & under). Details on divisions are available at registration and on our website. Children are generally placed as they register, with attempts made to honor requests as we can.</h4>
+<br>
+<h4>Q) When will I know what team my child is on?</h4>
+<h4>A) Often, you will know before you leave registration. All participants will be contacted by their coaches two to three weeks prior to equipment issue.</h4>
+<br>
+<h4>Q) Do players ever get cut?</h4>
+<h4> A) NO! All players who sign up and comes to practice will play! </h4>
+<br>
+<h4>Q) How much will my child play?</h4>
+<h4> A) All children will play. Coaches will determine what positions each child is best suited for and as a result some will play more plays than others. Every division has a minimum number of plays per game that each child must play.</h4>
+<br>
+<h4>Q) What is Certification Day? Does my child have to be there?</h4>
+<h4> A) Certification Day will take place near the first game of the season. It is the day that all players are placed on a certified roster for their team. YES.....ALL PLAYERS MUST ATTEND!! On this day, all players have their final weigh-in by League officials to make certain they qualify to play in the division they have been placed in. All paperwork must be presented to league officials to verify each child’s age, weight and identification. This is done to comply with safety regulations. All participants must be checked at Certification or they will not be allowed to play.</h4>
+<br>
+<h4>Q) What if we can’t make it to Certification Day?</h4>
+<h4> A) Certification is mandatory. It is VERY, VERY IMPORTANT!! If your child does not certify, their name will not appear on the teams’ roster and your child will be ineligible to participate for the entire season. This is a CCAYFL rule. We have no control over this ruling...if you don’t certify.... you don’t play! With that said, the League has held make up dates at their convenience; we cannot guarantee that they will be so gracious every year.</h4>
+</font>
+</div>
+
+
+
+<body>
+
+  <font color="red"><h6 align="right" >Powered by<img src="powered_by_bss.png" width="200" height="50" alt="Steph" opacity="0.5" style="position:absolute; top:750px; right:10px;"></h6>
+
+
+<link href="p.css" rel="stylesheet" type="text/css" />
+<a href="file:///Users/tiaraloftin/Desktop/PittLightning/index.html"><img src="Pitt_Lightning_Banner.jpg" width="1500" height="100" alt="Steph" opacity="0.5"style="top:0px; right:-20px; position: absolute; z-index:4">
+
+
+
+
+
+</body>
+</html>
